@@ -12,7 +12,7 @@ export default function InputComponent() {
   return (
     <input
       type="text"
-      placeholder="Enter the string"
+      placeholder="Enter the name"
       onChange={handleChangeInput}
       value={name}
     />
